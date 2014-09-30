@@ -33,8 +33,8 @@ $di->set('db',function(){
 $app=new \Phalcon\Mvc\Micro();
 
 //First page
-$app->get('/{name}',function(){
-    echo 'Hello World!'.$name;
+$app->get('/',function(){
+    echo 'Hello World!';
 });
 
 //Retrieves all robots
