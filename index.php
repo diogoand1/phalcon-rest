@@ -15,9 +15,9 @@ $di=new Phalcon\DI\FactoryDefault();
 $di->set('db',function(){
     return new Phalcon\Db\Adapter\Pdo\Mysql(array(
         'host'      =>'localhost',
-        'username'  =>'root',
+        'username'  =>'username',
         'password'  =>'',
-        'dbname'    =>'prawee_phalconapi'
+        'dbname'    =>'your-dbname'
     ));
 });*/
 
